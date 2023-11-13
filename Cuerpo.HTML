@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regla del Trapecio</title>
+    <link rel="stylesheet" href="Arreglos.css">
+</head>
+<body>
+    <header>
+        <h1>Método del Trapecio</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introducción</h2>
+            <p>El método del trapecio es una técnica numérica utilizada para aproximar el valor de una integral definida. Se basa en dividir el área bajo una curva en varios trapecios y sumar estas áreas para obtener una estimación de la integral.</p>
+        </section>
+
+        <section>
+            <h2>Formulación Matemática</h2>
+            <div style="text-align: center;">
+                <img src="img/Trapecio.jpg" style="max-width: 100%; height: auto;">
+            </div>
+        </section>
+
+        <section>
+            <h2>Pasos del Método del Trapecio</h2>
+            <ol>
+                <li>Divide el intervalo \([a, b]\) en \(n\) subintervalos de igual tamaño.</li>
+                <li>Calcula el valor de la función en los extremos de cada subintervalo.</li>
+                <li>Aplica la fórmula del trapecio para cada subintervalo y suma los resultados.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Ventajas y Limitaciones</h2>
+            <h3>Ventajas</h3>
+            <ul>
+                <li>Simplicidad: Fácil de entender e implementar.</li>
+                <li>Flexibilidad: Puede aplicarse a funciones no lineales y no continuas.</li>
+                <li>Convergencia: Converge a la solución exacta para funciones lineales.</li>
+            </ul>
+
+            <h3>Limitaciones</h3>
+            <ul>
+                <li>Precisión: Puede requerir un número significativo de subintervalos para lograr precisión.</li>
+                <li>No adecuado para todas las funciones: No funciona igual de bien para todas las funciones, especialmente aquellas con oscilaciones rápidas.</li>
+                <li>No exacto para funciones no lineales: Aunque mejora con más subintervalos, puede no ser exacto para funciones no lineales.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Comentarios y Retroalimentación</h2>
+            <p>¿Tienes alguna pregunta o comentario sobre el Método del Trapecio?
+            ¡Déjanos saber!</p>
+            
+            <form action="mailto:tu@email.com" method="post" enctype="text/plain">
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Método del Trapecio - Desarrollado por Kevin Eduardo Magariño Sibaja</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
